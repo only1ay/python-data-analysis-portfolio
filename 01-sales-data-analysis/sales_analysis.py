@@ -52,6 +52,12 @@ product_sales = df.groupby("Product")["Revenue"].sum()
 print("\nREVENUE BY PRODUCT")
 print(product_sales.sort_values(ascending=False))
 
+# Analyse quantity sold by product
+product_quantity = df.groupby("Product")["Quantity"].sum()
+
+print("\nQUANTITY SOLD BY PRODUCT")
+print(product_quantity.sort_values(ascending=False))
+
 # Sales by region
 region_sales = df.groupby("Region")["Revenue"].sum()
 print("\nREVENUE BY REGION")
