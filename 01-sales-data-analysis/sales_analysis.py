@@ -41,7 +41,7 @@ print("FIRST FIVE RECORDS")
 print(df.head())
 
 print("\nDATASET INFORMATION")
-print(df.info())
+df.info()
 
 # Calculate total revenue
 total_revenue = df["Revenue"].sum()
