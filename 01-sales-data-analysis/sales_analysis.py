@@ -80,3 +80,14 @@ product_sales.sort_values().plot(
 
 plt.tight_layout()
 plt.show()
+
+# Visualise quantity sold by product
+product_quantity.sort_values().plot(
+    kind="bar",
+    title="Quantity Sold by Product",
+    xlabel="Product",
+    ylabel="Quantity Sold"
+)
+
+plt.tight_layout()
+plt.show()
