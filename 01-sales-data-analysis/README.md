@@ -52,3 +52,20 @@ In progress. The code has been added to GitHub. Execution, verification of resul
 Note
 
 This is a self-directed practice project using sample data. It does not represent actual sales records from a real business.
+
+Key Findings
+
+Based on the analysis of the sample sales dataset, the following findings were obtained:
+
+1. Total Revenue: The total revenue generated from all transactions was ₦8,765,000.
+2. Top Product: Phones generated the highest revenue of ₦3,750,000.
+3. Top Region: Ogun recorded the highest revenue of ₦3,750,000.
+4. Best-Performing Month: January recorded the highest monthly revenue of ₦2,430,000.
+
+Conclusion
+
+The analysis shows that phones generated the highest revenue among the products, while Ogun was the highest-performing region. January recorded the highest monthly revenue.
+
+This project helped me practise using Python, Pandas and Matplotlib to organise, analyse and visualise sales data.
+
+Note: This project uses a sample dataset created for learning purposes.
